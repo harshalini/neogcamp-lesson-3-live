@@ -3,7 +3,7 @@
 :root {
     --primary-color: #EC4899;
     --dark-gray: #6B7280;
-    --light-gray: #D1D5DB;
+    --light-gray: #E5E7EB;
 }
 
 body {
@@ -25,6 +25,10 @@ hr {
     padding-left: 1rem;
     padding-right: 1rem;
     margin: auto;
+}
+.center {
+    margin: auto;
+    text-align: center;
 }
 
 /** links **/
@@ -127,5 +131,14 @@ footer {
 
 .footer ul {
     padding-inline-start: 0px; 
+}
+
+.blog-img {
+    max-width: 300px;
+    margin: auto;
+}
+
+span {
+    color: var(--primary-color);
 }
 
