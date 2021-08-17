@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-
 :root {
     --primary-color: #EC4899;
     --dark-gray: #6B7280;
@@ -14,7 +13,9 @@ hr {
     margin: 2rem 0;
 }
 
+
 /** containers **/
+
 .container-fluid {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -26,16 +27,18 @@ hr {
     padding-right: 1rem;
     margin: auto;
 }
+
 .center {
     margin: auto;
     text-align: center;
 }
 
+
 /** links **/
+
 .link {
     text-decoration: none;
     padding: 0.5rem 1rem;
-
 }
 
 .primary-link {
@@ -51,9 +54,12 @@ hr {
     border-color: var(--primary-color);
 }
 
+
 /** look into BEM naming convention for CSS **/
 
+
 /** lists **/
+
 .list-non-bullet {
     list-style: none;
 }
@@ -103,11 +109,13 @@ hr {
     text-align: center;
 }
 
+
 /** sections **/
 
 .section {
     padding: 2rem;
 }
+
 .section h1 {
     text-align: center;
 }
@@ -116,7 +124,9 @@ hr {
     background-color: var(--light-gray);
 }
 
+
 /**footer **/
+
 footer {
     background-color: var(--primary-color);
     padding: 2rem 0rem;
@@ -130,7 +140,7 @@ footer {
 }
 
 .footer ul {
-    padding-inline-start: 0px; 
+    padding-inline-start: 0px;
 }
 
 .blog-img {
@@ -141,4 +151,3 @@ footer {
 span {
     color: var(--primary-color);
 }
-
