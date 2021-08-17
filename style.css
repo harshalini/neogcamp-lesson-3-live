@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
 :root {
     --primary-color: #EC4899;
     --dark-gray: #6B7280;
@@ -13,9 +14,7 @@ hr {
     margin: 2rem 0;
 }
 
-
 /** containers **/
-
 .container-fluid {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -27,18 +26,16 @@ hr {
     padding-right: 1rem;
     margin: auto;
 }
-
 .center {
     margin: auto;
     text-align: center;
 }
 
-
 /** links **/
-
 .link {
     text-decoration: none;
     padding: 0.5rem 1rem;
+
 }
 
 .primary-link {
@@ -54,12 +51,9 @@ hr {
     border-color: var(--primary-color);
 }
 
-
 /** look into BEM naming convention for CSS **/
 
-
 /** lists **/
-
 .list-non-bullet {
     list-style: none;
 }
@@ -109,13 +103,11 @@ hr {
     text-align: center;
 }
 
-
 /** sections **/
 
 .section {
     padding: 2rem;
 }
-
 .section h1 {
     text-align: center;
 }
@@ -124,16 +116,13 @@ hr {
     background-color: var(--light-gray);
 }
 
-
 /**footer **/
-
 footer {
     background-color: var(--primary-color);
     padding: 2rem 0rem;
     border-top-right-radius: 1rem;
     text-align: center;
     color: white;
-    margin-top: 1.5rem;
 }
 
 .footer .link {
@@ -141,7 +130,7 @@ footer {
 }
 
 .footer ul {
-    padding-inline-start: 0px;
+    padding-inline-start: 0px; 
 }
 
 .blog-img {
@@ -153,53 +142,3 @@ span {
     color: var(--primary-color);
 }
 
-.mark {
-    border: solid 2px black;
-    color: white;
-    background-color: var(--primary-color);
-    width: 70px;
-    margin: auto;
-    margin-top: 0.5rem;
-}
-
-
-/* MEDIA QUERIES */
-
-@media screen and (max-width: 400px) {
-    .hero-heading {
-        margin-bottom: 0.5rem;
-    }
-    .project-links {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .primary-link {
-        margin: 0.5rem;
-        margin-top: 0;
-    }
-    .info {
-        text-align: center;
-        margin: 1rem;
-    }
-    .hero-image {
-        width: 100%;
-    }
-    .footer {
-        margin-top: 1rem;
-    }
-    .nav-pills {
-        display: flex;
-        flex-direction: column;
-    }
-    .blog-img {
-        margin: auto;
-        width: 80%;
-    }
-    .center h1 {
-        margin-bottom: 0;
-    }
-    .social-links {
-        display: grid;
-    }
-}
