@@ -133,6 +133,7 @@ footer {
     border-top-right-radius: 1rem;
     text-align: center;
     color: white;
+    margin-top: 1.5rem;
 }
 
 .footer .link {
@@ -150,4 +151,55 @@ footer {
 
 span {
     color: var(--primary-color);
+}
+
+.mark {
+    border: solid 2px black;
+    color: white;
+    background-color: var(--primary-color);
+    width: 70px;
+    margin: auto;
+    margin-top: 0.5rem;
+}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 400px) {
+    .hero-heading {
+        margin-bottom: 0.5rem;
+    }
+    .project-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .primary-link {
+        margin: 0.5rem;
+        margin-top: 0;
+    }
+    .info {
+        text-align: center;
+        margin: 1rem;
+    }
+    .hero-image {
+        width: 100%;
+    }
+    .footer {
+        margin-top: 1rem;
+    }
+    .nav-pills {
+        display: flex;
+        flex-direction: column;
+    }
+    .blog-img {
+        margin: auto;
+        width: 80%;
+    }
+    .center h1 {
+        margin-bottom: 0;
+    }
+    .social-links {
+        display: grid;
+    }
 }
