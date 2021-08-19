@@ -8,74 +8,43 @@ body {
     margin: 0;
 }
 
-h1 {
-    font-size: 2.5rem;
-    text-align: center;
-}
-
-h2 {
-    text-align: center;
-}
-
-.small {
-    text-align: center;
-}
-
-header {
-    margin: auto;
-}
-
 .hero-img {
     margin: auto;
     max-width: 500px;
     display: block;
-    margin-bottom: 0%;
+    margin-bottom: -0%;
     margin-top: 0%;
-    width: 70%;
+    width: 50%;
 }
 
-.section,
-.blog2-section {
+.section {
     margin: auto;
     padding-top: 2rem;
     padding-left: 5rem;
     padding-right: 5rem;
     padding-bottom: 4rem;
     width: 70%;
-    margin-bottom: 3rem;
-}
-
-.section {
-    border: solid 10px coral;
-}
-
-.blog2-section {
-    border: solid 10px lightblue;
-}
-
-#blog-h1,
-#blog2-h1 {
-    padding: 2rem;
-    margin: 0;
 }
 
 #blog-h1 {
-    background-color: coral;
+    margin-top: 0%;
+    margin-bottom: 0.5;
+    width: 100%;
+    padding: 2rem;
+    font-size: 4rem;
+    background-image: url(./images/dsm.png);
+    background-size: auto;
+    color: black;
 }
 
-#blog2-h1 {
-    background-color: lightblue;
-}
-
-
-/*.music-blog {
+.music-blog {
     display: flex;
     flex-direction: row;
     align-items: center;
-}*/
+}
 
 .side-line {
-    background-color: rgb(253, 147, 128);
+    background-color: lightblue;
     height: 2000px;
     width: 700px;
 }
@@ -86,7 +55,7 @@ header {
     margin-top: 2rem;
     margin-left: 0.5rem;
     padding: 2rem;
-    background-color: var(--primary-color);
+    background-color: darkblue;
     color: white;
     border-radius: 15px;
     font-size: medium;
@@ -107,23 +76,4 @@ footer {
 
 .footer ul {
     padding-inline-start: 0px;
-}
-
-@media screen and (max-width: 400px) {
-    body {}
-    #blog-h1,
-    #blog2-h1 {
-        font-size: 200%;
-    }
-    .section,
-    .blog2-section {
-        padding: 0.5rem;
-        font-size: smaller;
-    }
-    .section {
-        border: solid 5px coral;
-    }
-    .blog2-section {
-        border: solid 5px lightblue;
-    }
 }

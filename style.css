@@ -7,6 +7,9 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    /*background-color: #D9ECF2
+    #E4FBFF;
+    #FDEFEF*/
 }
 
 hr {
@@ -31,6 +34,25 @@ hr {
 .center {
     margin: auto;
     text-align: center;
+    width: 70%;
+}
+
+.center-left {
+    margin: auto;
+    text-align: center;
+    width: 70%;
+    background-color: #FDEFEF;
+    padding-bottom: 2rem;
+    margin-left: 5%;
+}
+
+.center-right {
+    margin: auto;
+    text-align: center;
+    width: 70%;
+    margin-right: 5%;
+    background-color: #E5E7EB;
+    padding-bottom: 2rem;
 }
 
 
@@ -45,6 +67,13 @@ hr {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
+}
+
+.read-more {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+    padding: 0.5rem 1rem;
 }
 
 .secondary-link {
@@ -178,6 +207,9 @@ span {
         margin: 0.5rem;
         margin-top: 0;
     }
+    .read-more {
+        display: block;
+    }
     .info {
         text-align: center;
         margin: 1rem;
@@ -196,10 +228,40 @@ span {
         margin: auto;
         width: 80%;
     }
+    .center {
+        width: 100%;
+    }
     .center h1 {
         margin-bottom: 0;
     }
     .social-links {
         display: grid;
+    }
+    .container-center {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        padding: 0;
+    }
+    .center-left {
+        padding-top: 0.5rem;
+        width: 80%;
+        margin: -2% 0 -2% -2%;
+        border-radius: 10%;
+        border: solid 2px var(--primary-color);
+    }
+    .center-left h1,
+    .center-right h1 {
+        font-size: x-large;
+        padding-top: 0 0.2rem 0 0.2rem;
+    }
+    .center-right {
+        border: solid 2px black;
+        padding-top: 0.5rem;
+        width: 80%;
+        margin-right: -2%;
+        margin-top: -6.5%;
+        margin-bottom: -6.5%;
+        border-radius: 10%;
     }
 }
