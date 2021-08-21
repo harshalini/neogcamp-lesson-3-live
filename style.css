@@ -38,21 +38,25 @@ hr {
 }
 
 .center-left {
-    margin: auto;
+    margin: -2% auto auto 7%;
     text-align: center;
-    width: 70%;
+    width: 61%;
     background-color: #FDEFEF;
-    padding-bottom: 2rem;
-    margin-left: 5%;
+    padding-bottom: 5rem;
+    padding-top: 0.5rem;
+    border: solid 3px var(--primary-color);
+    border-radius: 40px;
 }
 
 .center-right {
-    margin: auto;
+    margin: -2% 7% auto auto;
     text-align: center;
-    width: 70%;
-    margin-right: 5%;
+    width: 61%;
     background-color: #E5E7EB;
-    padding-bottom: 2rem;
+    padding-bottom: 5rem;
+    padding-top: 0.5rem;
+    border: solid 3px black;
+    border-radius: 40px;
 }
 
 
