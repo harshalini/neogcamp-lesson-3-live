@@ -38,7 +38,7 @@ hr {
 }
 
 .center-left {
-    margin: -2% auto auto 7%;
+    margin: -2.5% auto auto 7%;
     text-align: center;
     width: 61%;
     background-color: #FDEFEF;
@@ -49,7 +49,7 @@ hr {
 }
 
 .center-right {
-    margin: -2% 7% auto auto;
+    margin: -2.5% 7% auto auto;
     text-align: center;
     width: 61%;
     background-color: #E5E7EB;
